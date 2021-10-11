@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkblog_imam_fahrur_rofi=self.webpackChunkblog_imam_fahrur_rofi||[]).push([[354],{1866:function(e,t,r){r.r(t);var i=r(7294),u=r(8651);t.default=function(){return i.createElement(u.Z,{title:"About Me"},i.createElement("p",null,"Hi there! I'm the proud creator of this site, which I built with Gatsby."))}}}]);
+//# sourceMappingURL=component---src-pages-about-jsx-6678c09ecd487c6486fa.js.map

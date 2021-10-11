@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkblog_imam_fahrur_rofi=self.webpackChunkblog_imam_fahrur_rofi||[]).push([[230],{4199:function(e,t,r){r.r(t);var a=r(7294),l=r(8651);t.default=function(){return a.createElement(l.Z,{title:"Blog Fahru"},a.createElement("p",null,"I'm making this by following the Gatsby Tutorial."))}}}]);
+//# sourceMappingURL=component---src-pages-index-jsx-19fa817d71d907e1cd58.js.map
