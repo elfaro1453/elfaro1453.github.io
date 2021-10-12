@@ -1,54 +1,41 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# elfaro1453.github.io
 
-## 🚀 Quick start
+Project ini dibuat menggunakan GatsbyJS, anda membutuhkan node versi 16.x.x dan npm versi 7.x.x untuk bisa optimal dalam mengerjakan project ini.
 
-1.  **Create a Gatsby site.**
+**Cara menjalankan project ini di local anda.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Git Clone This Project
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+1. Buka sebuah folder di finder / explorer
+2. Klik kanan pilih open in terminal / open powershell
+3. Jalankan kode `git clone https://github.com/elfaro1453/elfaro1453.github.io.git`
+4. Setelah git clone selesai, akan ada folder bernama `elfaro1453.github.io`,
+5. Buka folder tersebut, klik kanan > open in terminal
 
-2.  **Start developing.**
+## Membuat Github Pages
 
-    Navigate into your new site’s directory and start it up.
+Github Pages akan digunakan sebagai tempat hosting GatsbyJS website.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+1. Buat sebuah repository dengan nama `username.github.io` , `username` diganti dengan nama username github anda, semisal github saya ini usernamenya `elfaro1453` maka nama repositorynya `elfaro1453.github.io`
+2. Ketika membuat repository, anda hanya perlu memasukkan nama saja, pengaturan lain dibiarkan saja
+3. Setelah repository terbuat, copy url git repositorynya, **Contoh** repository ini adalah `https://github.com/elfaro1453/elfaro1453.github.io.git`
 
-3.  **Open the code and start customizing!**
+## Ubah Remote URL Git Local
 
-    Your site is now running at http://localhost:8000!
+Ketika anda melakukan git clone pada repository ini, maka remote url yang digunakan masih menggunakan repository ini, sehingga perlu diganti dengan remote url dari repository yang telah anda buat di langkah sebelumnya.
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+1. Buka terminal dari langkah **Git Clone This Project** di atas.
+2. cek remote repository yang digunakan oleh project dengan menjalankan kode `git remote -v`
+3. Jika dari langkah 2 di atas url remote repository masih `https://github.com/elfaro1453/elfaro1453.github.io.git` , maka kita perlu menggantinya
+4. Ganti url remote repository dengan menjalankan kode berikut `git remote set-url origin https://github.com/username/username.github.io.git`, **Ganti username dengan username github anda**
+5. Cek kembali remote url dengan menjalankan kode `git remote -v`
 
-4.  **Learn more**
+## NPM Install
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Anda akan melihat bahwasanya hanya ada folder src, maka kita perlu menginstall dan mengkonfigurasi project agar bisa digunakan kembali.
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+1. Buka terminal dari langkah sebelumnya
+2. Jalankan `npm run start` untuk memulai project Gatsby secara local.
+3. Setelah server jalan, buka url `http://localhost:8000/` di browser
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+Happy Hacking !
