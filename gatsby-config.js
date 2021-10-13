@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://elfaro1453.github.io",
-    title: "Blog Imam Fahrur Rofi",
+    title: "Blog Fahrur Rofi",
   },
   plugins: [
     "gatsby-plugin-image",

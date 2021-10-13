@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import {
   container,
@@ -8,13 +7,24 @@ import {
   navLinkItem,
   navLinkText
 } from './layout.module.css'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 
 const Layout = (props) => {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
   let pageTitle = props.title
   let children = props.children
   return (
     <div className={container}>
-      <Helmet title={pageTitle} defer={false} />
+      <Helmet title={pageTitle + " - " + data.site.siteMetadata.title} defer={false} />
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}><Link to="/" className={navLinkText}>Home</Link></li>
@@ -28,5 +38,4 @@ const Layout = (props) => {
     </div>
   )
 }
-
 export default Layout
