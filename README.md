@@ -35,7 +35,7 @@ Ketika anda melakukan git clone pada repository ini, maka remote url yang diguna
 Anda akan melihat bahwasanya hanya ada folder src, maka kita perlu menginstall dan mengkonfigurasi project agar bisa digunakan kembali.
 
 1. Buka terminal dari langkah sebelumnya
-2. Jalankan `npm run start` untuk memulai project Gatsby secara local.
+2. Jalankan `npm run install & npm run start` untuk memulai project Gatsby secara local.
 3. Setelah server jalan, buka url `http://localhost:8000/` di browser
 
 Happy Hacking !
