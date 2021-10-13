@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkblog_imam_fahrur_rofi=self.webpackChunkblog_imam_fahrur_rofi||[]).push([[757],{5062:function(e,a,t){t.r(a);var l=t(7294),n=t(8651);a.default=function(e){var a=e.data;return l.createElement(n.Z,{title:"My Blog Posts"},l.createElement("ul",null,a.allFile.nodes.map((function(e){return l.createElement("li",{key:e.name},e.name)}))))}}}]);
+//# sourceMappingURL=component---src-pages-blog-jsx-76bcec4d65aa73f08ac8.js.map

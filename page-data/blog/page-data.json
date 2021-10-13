@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-jsx",
+    "path": "/blog/",
+    "result": {"data":{"allFile":{"nodes":[{"name":"01-post-satu","extension":"mdx"},{"name":"02-post-dua","extension":"mdx"},{"name":"03-post-tiga","extension":"mdx"}]}},"pageContext":{}},
+    "staticQueryHashes": ["3159585216"]}
