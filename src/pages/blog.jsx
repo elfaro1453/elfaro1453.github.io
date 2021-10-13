@@ -1,12 +1,29 @@
 import * as React from 'react'
+import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-
-const BlogPage = () => {
+const BlogPage = ({ data }) => {
   return (
     <Layout title="My Blog Posts">
-      <p>My cool posts will go in here</p>
+      <ul>
+      {
+        data.allFile.nodes.map(node => (
+          <li key={node.name}>
+            {node.name}
+          </li>
+        ))
+      }
+      </ul>
     </Layout>
   )
 }
-
+export const query = graphql`
+  query {
+    allFile(filter: {extension: {eq: "mdx"}}) {
+      nodes {
+        name
+        extension
+      }
+    }
+  }
+`
 export default BlogPage
