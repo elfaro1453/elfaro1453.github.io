@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-     <Layout title="Blog Fahru">
+     <Layout title="Blog Mas Fahru">
       <p>I'm making this by following the Gatsby Tutorial.</p>
      </Layout>
   )
